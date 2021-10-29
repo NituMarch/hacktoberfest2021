@@ -21,9 +21,9 @@ f1 = Frame(root, width = 800, height = 700,
 							relief = SUNKEN) 
 f1.pack(side = LEFT) 
 
-# ============================================== 
+#  ============================================== 
 #				 TIME                                
-# ============================================== 
+#  ============================================== 
 localtime = time.asctime(time.localtime(time.time())) 
 
 lblInfo = Label(Tops, font = ('new times roman', 40, 'bold'), 
